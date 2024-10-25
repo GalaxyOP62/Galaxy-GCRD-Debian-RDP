@@ -3,8 +3,8 @@ import subprocess
 import shutil
 
 CRD_SSH_Code = input("Google CRD SSH Code :")
-username = "user" #@param {type:"string"}
-password = "root" #@param {type:"string"}
+username = "Subscriber" #@param {type:"string"}
+password = "GalaxyOP" #@param {type:"string"}
 os.system(f"useradd -m {username}")
 os.system(f"adduser {username} sudo")
 os.system(f"echo '{username}:{password}' | sudo chpasswd")
@@ -108,8 +108,8 @@ X-GNOME-Autostart-enabled=true""".format(link)
         print(" ..Youtube Channel - https://www.youtube.com/@Galaxyop62 ..")
         print(" ..........................................................")
         print("Log in PIN : 629686") 
-        print("User Name : user") 
-        print("User Pass : root") 
+        print("User Name : Subscriber") 
+        print("User Pass : GalaxyOP") 
         while True:
             pass
 
