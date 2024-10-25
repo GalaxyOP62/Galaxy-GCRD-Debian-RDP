@@ -57,17 +57,7 @@ class CRDSetup:
 
     @staticmethod
     def changewall():
-        os.system(f"sudo curl -s -L -o /etc/alternatives/desktop-theme/wallpaper/contents/images/1280x1024.svg https://gitlab.com/chamod12/gcrd_deb_codesandbox.io_rdp/-/raw/main/walls/1280x1024.svg")
-        os.system(f"sudo curl -s -L -o /etc/alternatives/desktop-theme/wallpaper/contents/images/1280x800.svg https://gitlab.com/chamod12/gcrd_deb_codesandbox.io_rdp/-/raw/main/walls/1280x800.svg")
         os.system(f"sudo curl -s -L -o /etc/alternatives/desktop-theme/wallpaper/contents/images/1600x1200.svg https://gitlab.com/chamod12/gcrd_deb_codesandbox.io_rdp/-/raw/main/walls/1600x1200.svg")
-        os.system(f"sudo curl -s -L -o /etc/alternatives/desktop-theme/wallpaper/contents/images/1920x1080.svg https://gitlab.com/chamod12/gcrd_deb_codesandbox.io_rdp/-/raw/main/walls/1920x1080.svg")
-        os.system(f"sudo curl -s -L -o /etc/alternatives/desktop-theme/wallpaper/contents/images/1920x1200.svg https://gitlab.com/chamod12/gcrd_deb_codesandbox.io_rdp/-/raw/main/walls/1920x1200.svg")
-        os.system(f"sudo curl -s -L -o /etc/alternatives/desktop-theme/wallpaper/contents/images/2560x1440.svg https://gitlab.com/chamod12/gcrd_deb_codesandbox.io_rdp/-/raw/main/walls/2560x1440.svg")
-        os.system(f"sudo curl -s -L -o /etc/alternatives/desktop-theme/wallpaper/contents/images/2560x1600.svg https://gitlab.com/chamod12/gcrd_deb_codesandbox.io_rdp/-/raw/main/walls/2560x1600.svg")
-        os.system(f"sudo curl -s -L -o /etc/alternatives/desktop-theme/wallpaper/contents/images/3200x1800.svg https://gitlab.com/chamod12/gcrd_deb_codesandbox.io_rdp/-/raw/main/walls/3200x1800.svg")
-        os.system(f"sudo curl -s -L -o /etc/alternatives/desktop-theme/wallpaper/contents/images/3200x2000.svg https://gitlab.com/chamod12/gcrd_deb_codesandbox.io_rdp/-/raw/main/walls/3200x2000.svg")
-        os.system(f"sudo curl -s -L -o /etc/alternatives/desktop-theme/wallpaper/contents/images/3840x2160.svg https://gitlab.com/chamod12/gcrd_deb_codesandbox.io_rdp/-/raw/main/walls/3840x2160.svg")
-        os.system(f"sudo curl -s -L -o /etc/alternatives/desktop-theme/wallpaper/contents/images/5120x2880.svg https://gitlab.com/chamod12/gcrd_deb_codesandbox.io_rdp/-/raw/main/walls/5120x2880.svg")
         print("Wallpaper Changed !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
    
     @staticmethod
@@ -80,7 +70,7 @@ class CRDSetup:
     def finish(user):
         if Autostart:
             os.makedirs(f"/home/{user}/.config/autostart", exist_ok=True)
-            link = "www.youtube.com/@The_Disala"
+            link = "www.youtube.com/@Galaxyop62"
             colab_autostart = """[Desktop Entry]
             print("Finalizing !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
 
