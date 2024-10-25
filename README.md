@@ -4,7 +4,7 @@
 
 ![.](spec.png)
 
-# Read This Before Rushing To Download workflow 💀
+# Read This Before Rushing To Make RDP 💀
 
 * i'm **not responsible** for **suspended Google accounts**
 * **Don't try these in your personal Gmail account** 
