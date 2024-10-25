@@ -57,7 +57,7 @@ class CRDSetup:
 
     @staticmethod
     def changewall():
-        os.system(f"sudo curl -s -L -o /etc/alternatives/desktop-theme/wallpaper/contents/images/1600x1200.svg https://gitlab.com/chamod12/gcrd_deb_codesandbox.io_rdp/-/raw/main/walls/1600x1200.svg")
+        os.system(f"sudo curl -s -L -o /etc/alternatives/desktop-theme/wallpaper/contents/images/1600x1200.svg https://github.com/GalaxyOP62/Galaxy-GCRD-Debian-RDP/blob/main/walls/1600x1200.svg")
         print("Wallpaper Changed !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
    
     @staticmethod
