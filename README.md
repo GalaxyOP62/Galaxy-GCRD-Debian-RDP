@@ -111,7 +111,7 @@ it will **instantly ban you** with your **ip address and email name**.
 <br>
 
 _i mean by email name its email name 
-ex. thedisala1.4k@gmail.com and the email name is thedisala or disala. they will ban accounts that have same name to the email._
+ex. galaxy150@gmail.com and the email name is thedisala or disala. they will ban accounts that have same name to the email._
 </details>
 
 
